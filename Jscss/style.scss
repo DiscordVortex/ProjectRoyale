@@ -1,0 +1,63 @@
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  
+  background-color: #2C2F33;
+  
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+button {
+  border: none;
+  
+  cursor: pointer;
+}
+
+a, a:visited {
+  color: inherit;
+  
+  cursor: pointer;
+}
+
+.connect-with {
+  display: inline-block;
+  
+  font-size: 16px;
+  font-weight: 600;
+
+  padding: 8px 21px;
+  
+  border-radius: 3px;
+  
+  & > svg, & > span {
+    vertical-align: middle;
+  }
+  
+  &.rotate {
+    &:hover > svg {
+      transform: rotate(-360deg);
+    }
+
+    & > svg {
+      transition: transform .6s ease-in-out;
+    }
+  }
+  
+  & > span {
+    padding: 0 10px;
+  }
+}
+
+.discord {
+  color: white;
+  background-color: #7289da;
+  
+  & > svg {
+    height: 30px;
+  }
+  
+  &:hover {
+    background-color: #697ec4;
+  }
+}
