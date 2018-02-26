@@ -109,3 +109,12 @@ mark.bold {
   font-weight:900;
  
 }
+
+.apply {
+  background: #7289DA;
+  -webkit-font-smoothing: antialiased;
+   font-family: 'Montserrat';
+  font-weight:500;
+  height: 300%;
+}
+</style>
