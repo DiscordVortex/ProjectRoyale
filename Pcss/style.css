@@ -106,6 +106,15 @@ p.aside{
 
 mark.bold {
   background: none;
+   color:#7289DA;
+   font-family: 'Montserrat';
+  font-weight:900;
+ 
+}
+
+p.bold {
+  background: none;
+   color:#7289DA;
    font-family: 'Montserrat';
   font-weight:900;
  
