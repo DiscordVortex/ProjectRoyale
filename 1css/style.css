@@ -1,0 +1,37 @@
+.bg-blurple {
+  background: #7289DA;
+}
+
+.text-blurple {
+  color: #7289DA;
+}
+
+.btext{
+    color: #7289DA;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+ul.main {
+  color: #99AAB5;
+  list-style: none;
+  max-width: 75%;
+  margin: 20px auto;
+}
+
+p {
+  color: #23272A;
+  list-style: none;
+}
+
+ul {
+  color: #2C2F33;
+}
+
+h5 {
+  color: #7289DA;
+}
+
