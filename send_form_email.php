@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "VortexProject@outlook.com";
+$myemail  = "RoyaleProject@outlook.com";
 
 /* Check all form inputs using check_input function */
 if (isset($_GET["submit"])) {
@@ -23,7 +23,7 @@ if (preg_match( '/[a-zA-Z]/', $cords )) {
     }
 /* Let's prepare the message for the e-mail */
 $message = "Hello,
-This is a report from the Vortex Bootstrap Template. Below is the information...
+This is a report from the Royale Bootstrap Template. Below is the information...
 
 Name: $name
 E-mail: $email
